@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Evil Empire';
+    src: url('EvilEmpire.woff2') format('woff2'),
+        url('EvilEmpire.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,41 @@
+@import url('./Font/stylesheet.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar style */
+/* width */
+@media (min-width: 1024px) {
+	::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: transparent;
+		display: none;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		display: none;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		display: none;
+	}
+}
+
+body {
+	font-family: 'Evil Empire', sans-serif;
+	letter-spacing: 2px;
+}
+
+li.active {
+	color: rgb(147 51 234);
+	transition: all;
+	transition-duration: 0.3s;
+	transform: scale(1.15);
+}
